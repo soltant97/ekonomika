@@ -1,0 +1,59 @@
+    /********************************** Funktioner **********************************/
+
+
+    section.content {
+      padding: 94px 0;
+    }
+    .section-head {
+      max-width: 610px;
+      margin-bottom: 42px;
+    }
+    .section-head h2,.steps-intro h2,.demo-copy h2 {
+      margin: 0 0 14px;
+      font-size: clamp(35px,4vw,48px);
+      line-height: 1.12;
+      font-weight: 600;
+    }
+    .section-copy {
+      color: var(--muted);
+      font-size: 15px;
+      line-height: 1.75;
+    }
+    .services-grid {
+      display: grid;
+      grid-template-columns: repeat(3,1fr);
+      gap: 15px;
+    }
+    .service {
+      min-height: 210px;
+      padding: 25px;
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      background: rgba(255,255,255,.66);
+    }
+    .service-icon {
+      display: grid;
+      width: 40px;
+      height: 40px;
+      place-items: center;
+      margin-bottom: 23px;
+      border-radius: 50%;
+      background: var(--lime);
+      color: var(--green);
+      font-size: 17px;
+    }
+    .service h3 {
+      margin: 0 0 9px;
+      font-size: 17px;
+      letter-spacing: -.5px;
+    }
+    .service p {
+      margin: 0;
+      color: var(--muted);
+      font-size: 13px;
+      line-height: 1.65;
+    }
+
+
+
+
