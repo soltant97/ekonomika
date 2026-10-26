@@ -1,0 +1,98 @@
+    /********************************** Exempel från appen **********************************/
+
+
+
+    .demo {
+      background: #fff;
+    }
+    .demo-grid {
+      display: grid;
+      grid-template-columns: .85fr 1.15fr;
+      align-items: center;
+      gap: 65px;
+    }
+    .demo-copy .section-copy {
+      max-width: 390px;
+    }
+    .demo-card {
+      padding: 23px;
+      border: 1px solid var(--line);
+      border-radius: 14px;
+      background: #fbfcf9;
+    }
+    .demo-head {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 18px;
+    }
+    .demo-head strong {
+      font-family: Manrope,sans-serif;
+      font-size: 14px;
+    }
+    .demo-head span {
+      color: #718078;
+      font-size: 10px;
+    }
+    .receipt-row {
+      display: grid;
+      grid-template-columns: 1fr auto;
+      align-items: center;
+      gap: 12px;
+      padding: 14px 0;
+      border-bottom: 1px solid #edf0e9;
+    }
+    .receipt-left {
+      display: flex;
+      align-items: center;
+      gap: 11px;
+    }
+    .source-icon {
+      display: grid;
+      width: 35px;
+      height: 35px;
+      place-items: center;
+      border-radius: 10px;
+      background: #eaf0e5;
+      color: var(--green);
+      font-size: 12px;
+      font-weight: 800;
+    }
+    .source-icon.mail {
+      background: #eef1f5;
+      color: #637893;
+    }
+    .receipt-left strong {
+      display: block;
+      font-size: 11px;
+    }
+    .receipt-left small {
+      color: #859188;
+      font-size: 9px;
+    }
+    .status {
+      padding: 6px 8px;
+      border-radius: 99px;
+      background: #e5efdc;
+      color: #486a4d;
+      font-size: 9px;
+      font-weight: 700;
+    }
+    .status.wait {
+      background: #f5edda;
+      color: #8b6d2f;
+    }
+    .demo-foot {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      margin-top: 16px;
+      color: #718078;
+      font-size: 10px;
+    }
+    .demo-foot b {
+      color: var(--green);
+    }
+
+
+

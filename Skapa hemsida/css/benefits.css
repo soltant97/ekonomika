@@ -1,0 +1,29 @@
+    /* Fördelar */
+
+
+
+    .strip {
+      border-top: 1px solid var(--line);
+      border-bottom: 1px solid var(--line);
+      background: #f1f2eb;
+    }
+    .strip-inner {
+      display: flex;
+      justify-content: space-between;
+      gap: 20px;
+      padding: 19px 0;
+      color: #56675d;
+      font-size: 12px;
+    }
+    .strip-item {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .check {
+      color: var(--green);
+      font-weight: 700;
+    }
+
+
+

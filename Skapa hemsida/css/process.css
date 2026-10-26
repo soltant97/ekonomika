@@ -1,0 +1,48 @@
+    /********************************** Så fungerar det *********************************/
+
+
+
+
+    .how {
+      background: #eaf0e5;
+    }
+    .steps-grid {
+      display: grid;
+      grid-template-columns: .8fr 1.2fr;
+      gap: 80px;
+      align-items: start;
+    }
+    .steps-intro .section-copy {
+      max-width: 365px;
+    }
+    .steps {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 14px;
+    }
+    .step {
+      padding: 22px;
+      border-top: 1px solid rgba(49,93,73,.24);
+    }
+    .step-num {
+      display: block;
+      margin-bottom: 17px;
+      color: var(--green);
+      font-family: Manrope,sans-serif;
+      font-size: 12px;
+      font-weight: 800;
+    }
+    .step h3 {
+      margin: 0 0 7px;
+      font-size: 16px;
+      letter-spacing: -.4px;
+    }
+    .step p {
+      margin: 0;
+      color: var(--muted);
+      font-size: 12px;
+      line-height: 1.65;
+    }
+
+
+

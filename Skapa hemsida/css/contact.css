@@ -1,0 +1,92 @@
+    /* Om tjänsten */
+
+
+
+    .fit {
+      padding: 52px 0!important;
+      border-top: 1px solid var(--line);
+      border-bottom: 1px solid var(--line);
+      background: #f1f2eb;
+    }
+    .fit-inner {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 30px;
+    }
+    .fit-inner p {
+      max-width: 700px;
+      margin: 0;
+      color: #637168;
+      font-size: 13px;
+      line-height: 1.7;
+    }
+    .fit-inner strong {
+      color: var(--ink);
+    }
+
+
+
+
+    /********************************** Kontakt och sidfot **********************************/
+
+
+
+    .contact {
+      padding: 76px 0;
+      background: var(--dark);
+      color: white;
+    }
+    .contact-inner {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 35px;
+    }
+    .contact h2 {
+      max-width: 600px;
+      margin: 0 0 11px;
+      font-size: clamp(32px,4vw,45px);
+      line-height: 1.12;
+      font-weight: 600;
+    }
+    .contact p {
+      margin: 0;
+      color: #d0dbd3;
+      font-size: 14px;
+      line-height: 1.65;
+    }
+    .contact .button {
+      flex: 0 0 auto;
+      background: #e4eddb;
+      color: var(--dark);
+    }
+    footer {
+      padding: 24px 0;
+      background: #1d392c;
+      color: #c5d1c8;
+      font-size: 11px;
+    }
+    .footer-inner {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 20px;
+    }
+    .footer-brand {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      color: #fff;
+      font-family: Manrope,sans-serif;
+      font-size: 13px;
+      font-weight: 800;
+    }
+    .footer-brand img {
+      width: 27px;
+      height: 27px;
+      filter: brightness(0) invert(1);
+    }
+
+
+
